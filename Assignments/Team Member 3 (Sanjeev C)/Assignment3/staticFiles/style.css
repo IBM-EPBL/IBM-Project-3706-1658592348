@@ -1,0 +1,15 @@
+
+.ok 
+{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+}
+.con
+{
+    margin: 10px;
+
+}
