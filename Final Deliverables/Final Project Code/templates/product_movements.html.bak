@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<style>
+    body {
+      background-image: url('https://chat-bot-for-hospital.s3.jp-tok.cloud-object-storage.appdomain.cloud/abstract-blur-pastel-beautiful-peach-pink-color-sky-warm-tone-background-design-as-banner-slide-show-others_1258-63789.webp');
+    }
+    
+    
+
+    </style><br><br>
+     <h1>Product Movements</h1>
+     <a class="btn btn-success" href="/add_product_movements">Add Product Movements</a>
+     <hr>
+     <table class="table table-striped">
+         <thead>
+             <tr>
+                 
+                 <th>From Location</th>
+                 <th>To Location</th>
+                 <th>Product ID</th>
+                 <th>Quantity</th>
+             </tr>
+         </thead>
+         <tbody>
+                 {% for movement in movements %}
+                <tr>
+                 
+                 <td>{{movement.FROM_LOCATION}}</td>
+                 <td>{{movement.TO_LOCATION}}</td>
+                 <td>{{movement.PRODUCT_ID}}</td>
+                 <td>{{movement.QTY}}</td>
+                 <!--<td><a href="edit_product_movement/{{movement.MOVEMENT_ID}}" class="btn btn-primary pull-right">Edit</a></td>-->
+                 <td>
+                     <form action="{{url_for('delete_productm', id=movement.from_location)}}" method="POST">
+                        <input type="hidden" name="method" value="DELETE">
+                        <input type="submit" value="Delete" class="btn btn-danger">
+                     </form>
+                 </td>
+                </tr>
+                {% endfor %}
+         </tbody>
+     </table>
+{% endblock %}
