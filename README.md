@@ -2,7 +2,7 @@
 Inventory Managment System for Retailers
 
 <p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/800px-IBM_logo.svg.png"></p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/800px-IBM_logo.svg.png" width="200px" height="200px"></p>
 
 # Inventory Managment System for Retailers
 <p># IBM-EPBL/IBM-Project-3706-1658592348|   TEAMID: PNT2022TMID08671</p>
