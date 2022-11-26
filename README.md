@@ -5,7 +5,7 @@ Inventory Managment System for Retailers
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/800px-IBM_logo.svg.png"></p>
 
 # Inventory Managment System for Retailers
-# IBM-EPBL/IBM-Project-3706-1658592348    |   TEAMID: PNT2022TMID08671
+<p># IBM-EPBL/IBM-Project-3706-1658592348|   TEAMID: PNT2022TMID08671</p>
 <div align="center"><h3> <a href = "https://drive.google.com/file/d/1OX2RMVwAtJFPk3jZT58C4kPZrJtZFQfM/view?usp=share_link">Project Deployment Link</a></h3>  </div>
 <div align="center"><h3> <a href = "https://drive.google.com/file/d/1OX2RMVwAtJFPk3jZT58C4kPZrJtZFQfM/view?usp=share_link">Project Demo Video link</a></h3>  </div>
 <b>Team Lead:  SABAREESWARN M - 727620BCS303<br>
